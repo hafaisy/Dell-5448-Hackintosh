@@ -1,0 +1,150 @@
+71:965  0:192  Found BIOS RSDP at EF1E0
+71:965  0:000  Printing ACPI tables from RSDP EF1E0 ...
+71:965  0:000   EF1E0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+71:965  0:000    (Xsdt: CB3BD098, Rsdt: CB3BD028)
+71:965  0:000    CB3BD098: 'XSDT', 'CBX3   ', Rev: 1, Len: 180
+71:965  0:000    CB3BD028: 'RSDT', 'CBX3   ', Rev: 1, Len: 108
+71:965  0:000    Tables in Xsdt: 18
+71:965  0:000    0. CB3D0400: 'FACP', 'CBX3   ', Rev: 5, Len: 268
+71:965  0:000        (Dsdt: CB3BD1E0, Facs: CBD31F80, XDsdt: CB3BD1E0, XFacs: 0)
+71:965  0:000        CB3BD1E0: 'DSDT', 'CBX3   ', Rev: 2, Len: 78367
+71:967  0:002        CBD31F80: 'FACS', Ver: 2, Len: 64
+71:967  0:000    1. CB3D0510: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+71:967  0:000    2. CB3D0598: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+71:967  0:000    3. CB3D05E0: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+71:967  0:000    4. CB3D0680: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+71:967  0:000    5. CB3D06C0: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+71:967  0:000    6. CB3D06F8: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+71:967  0:000    7. CB3D0AB8: 'UEFI', '', Rev: 1, Len: 66
+71:967  0:000    8. CB3D0B00: 'ASF!', ' HCG', Rev: 32, Len: 160
+71:967  0:000    9. CB3D0BA0: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+71:967  0:000    10. CB3D0BC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+71:967  0:000    11. CB3D10E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+71:967  0:000    12. CB3D1C60: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+71:967  0:000    13. CB3D1E28: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16812
+71:967  0:000    14. CB3D5FD8: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+71:967  0:000    15. CB3D6598: 'DMAR', 'BDW ', Rev: 1, Len: 176
+71:967  0:000    16. CB3D6648: 'BGRT', '', Rev: 0, Len: 56
+71:967  0:000    17. CB3D6680: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+71:967  0:000    Tables in Rsdt: 18
+71:967  0:000    0. CB3BD158: 'FACP', 'CBX3   ', Rev: 2, Len: 132
+71:967  0:000        (Dsdt: CB3BD1E0, Facs: CBD31F40)
+71:967  0:000        CB3BD1E0: 'DSDT', 'CBX3   ', Rev: 2, Len: 78367
+71:969  0:002        CBD31F40: 'FACS', Ver: 0, Len: 64
+71:969  0:000    1. CB3D0510: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+71:969  0:000    2. CB3D0598: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+71:969  0:000    3. CB3D05E0: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+71:969  0:000    4. CB3D0680: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+71:969  0:000    5. CB3D06C0: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+71:969  0:000    6. CB3D06F8: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+71:969  0:000    7. CB3D0AB8: 'UEFI', '', Rev: 1, Len: 66
+71:969  0:000    8. CB3D0B00: 'ASF!', ' HCG', Rev: 32, Len: 160
+71:969  0:000    9. CB3D0BA0: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+71:969  0:000    10. CB3D0BC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+71:969  0:000    11. CB3D10E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+71:969  0:000    12. CB3D1C60: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+71:969  0:000    13. CB3D1E28: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16812
+71:969  0:000    14. CB3D5FD8: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+71:969  0:000    15. CB3D6598: 'DMAR', 'BDW ', Rev: 1, Len: 176
+71:969  0:000    16. CB3D6648: 'BGRT', '', Rev: 0, Len: 56
+71:969  0:000    17. CB3D6680: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+71:969  0:000  Found UEFI Acpi 2.0 RSDP at CB3BD000
+71:969  0:000  Saving ACPI tables from RSDP CB3BD000 to EFI\CLOVER\ACPI\origin ...
+71:969  0:000   CB3BD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+71:969  0:000    (Xsdt: CB3BD098, Rsdt: CB3BD028)
+71:969  0:000    CB3BD098: 'XSDT', 'CBX3   ', Rev: 1, Len: 180
+71:969  0:000    CB3BD028: 'RSDT', 'CBX3   ', Rev: 1, Len: 108
+71:969  0:000    Tables in Xsdt: 18
+71:969  0:000    0. CB3D0400: 'FACP', 'CBX3   ', Rev: 5, Len: 268
+71:969  0:000        (Dsdt: CB3BD1E0, Facs: CBD31F80, XDsdt: CB3BD1E0, XFacs: 0)
+71:969  0:000        CB3BD1E0: 'DSDT', 'CBX3   ', Rev: 2, Len: 78367
+71:971  0:002        CBD31F80: 'FACS', Ver: 2, Len: 64
+71:971  0:000    1. CB3D0510: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+71:971  0:000    2. CB3D0598: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+71:971  0:000    3. CB3D05E0: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+71:971  0:000    4. CB3D0680: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+71:971  0:000    5. CB3D06C0: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+71:971  0:000    6. CB3D06F8: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+71:971  0:000    7. CB3D0AB8: 'UEFI', '', Rev: 1, Len: 66
+71:971  0:000    8. CB3D0B00: 'ASF!', ' HCG', Rev: 32, Len: 160
+71:971  0:000    9. CB3D0BA0: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+71:971  0:000    10. CB3D0BC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+71:971  0:000    11. CB3D10E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+71:971  0:000    12. CB3D1C60: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+71:971  0:000    13. CB3D1E28: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16812
+71:971  0:000    14. CB3D5FD8: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+71:971  0:000    15. CB3D6598: 'DMAR', 'BDW ', Rev: 1, Len: 176
+71:971  0:000    16. CB3D6648: 'BGRT', '', Rev: 0, Len: 56
+71:971  0:000    17. CB3D6680: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+71:971  0:000    Tables in Rsdt: 18
+71:971  0:000    0. CB3BD158: 'FACP', 'CBX3   ', Rev: 2, Len: 132
+71:971  0:000        (Dsdt: CB3BD1E0, Facs: CBD31F40)
+71:971  0:000        CB3BD1E0: 'DSDT', 'CBX3   ', Rev: 2, Len: 78367
+71:973  0:002        CBD31F40: 'FACS', Ver: 0, Len: 64
+71:973  0:000    1. CB3D0510: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+71:973  0:000    2. CB3D0598: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+71:973  0:000    3. CB3D05E0: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+71:973  0:000    4. CB3D0680: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+71:973  0:000    5. CB3D06C0: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+71:973  0:000    6. CB3D06F8: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+71:973  0:000    7. CB3D0AB8: 'UEFI', '', Rev: 1, Len: 66
+71:973  0:000    8. CB3D0B00: 'ASF!', ' HCG', Rev: 32, Len: 160
+71:973  0:000    9. CB3D0BA0: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+71:973  0:000    10. CB3D0BC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+71:973  0:000    11. CB3D10E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+71:973  0:000    12. CB3D1C60: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+71:973  0:000    13. CB3D1E28: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16812
+71:973  0:000    14. CB3D5FD8: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+71:973  0:000    15. CB3D6598: 'DMAR', 'BDW ', Rev: 1, Len: 176
+71:973  0:000    16. CB3D6648: 'BGRT', '', Rev: 0, Len: 56
+71:973  0:000    17. CB3D6680: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+71:973  0:000  Found UEFI Acpi 1.0 RSDP at CB3BD000
+71:973  0:000  Printing ACPI tables from RSDP CB3BD000 ...
+71:973  0:000   CB3BD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+71:973  0:000    (Xsdt: CB3BD098, Rsdt: CB3BD028)
+71:973  0:000    CB3BD098: 'XSDT', 'CBX3   ', Rev: 1, Len: 180
+71:973  0:000    CB3BD028: 'RSDT', 'CBX3   ', Rev: 1, Len: 108
+71:973  0:000    Tables in Xsdt: 18
+71:973  0:000    0. CB3D0400: 'FACP', 'CBX3   ', Rev: 5, Len: 268
+71:973  0:000        (Dsdt: CB3BD1E0, Facs: CBD31F80, XDsdt: CB3BD1E0, XFacs: 0)
+71:973  0:000        CB3BD1E0: 'DSDT', 'CBX3   ', Rev: 2, Len: 78367
+71:975  0:002        CBD31F80: 'FACS', Ver: 2, Len: 64
+71:975  0:000    1. CB3D0510: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+71:975  0:000    2. CB3D0598: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+71:975  0:000    3. CB3D05E0: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+71:975  0:000    4. CB3D0680: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+71:975  0:000    5. CB3D06C0: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+71:975  0:000    6. CB3D06F8: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+71:975  0:000    7. CB3D0AB8: 'UEFI', '', Rev: 1, Len: 66
+71:975  0:000    8. CB3D0B00: 'ASF!', ' HCG', Rev: 32, Len: 160
+71:975  0:000    9. CB3D0BA0: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+71:975  0:000    10. CB3D0BC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+71:975  0:000    11. CB3D10E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+71:975  0:000    12. CB3D1C60: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+71:975  0:000    13. CB3D1E28: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16812
+71:975  0:000    14. CB3D5FD8: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+71:975  0:000    15. CB3D6598: 'DMAR', 'BDW ', Rev: 1, Len: 176
+71:975  0:000    16. CB3D6648: 'BGRT', '', Rev: 0, Len: 56
+71:975  0:000    17. CB3D6680: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+71:975  0:000    Tables in Rsdt: 18
+71:975  0:000    0. CB3BD158: 'FACP', 'CBX3   ', Rev: 2, Len: 132
+71:975  0:000        (Dsdt: CB3BD1E0, Facs: CBD31F40)
+71:975  0:000        CB3BD1E0: 'DSDT', 'CBX3   ', Rev: 2, Len: 78367
+71:977  0:002        CBD31F40: 'FACS', Ver: 0, Len: 64
+71:977  0:000    1. CB3D0510: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+71:977  0:000    2. CB3D0598: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+71:977  0:000    3. CB3D05E0: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+71:977  0:000    4. CB3D0680: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+71:977  0:000    5. CB3D06C0: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+71:977  0:000    6. CB3D06F8: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+71:977  0:000    7. CB3D0AB8: 'UEFI', '', Rev: 1, Len: 66
+71:977  0:000    8. CB3D0B00: 'ASF!', ' HCG', Rev: 32, Len: 160
+71:977  0:000    9. CB3D0BA0: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+71:977  0:000    10. CB3D0BC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+71:977  0:000    11. CB3D10E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+71:977  0:000    12. CB3D1C60: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+71:977  0:000    13. CB3D1E28: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16812
+71:977  0:000    14. CB3D5FD8: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+71:977  0:000    15. CB3D6598: 'DMAR', 'BDW ', Rev: 1, Len: 176
+71:977  0:000    16. CB3D6648: 'BGRT', '', Rev: 0, Len: 56
+71:977  0:000    17. CB3D6680: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
